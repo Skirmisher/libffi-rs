@@ -18,5 +18,6 @@ complex = []
 [package.metadata.docs.rs]
 features = ["system"]
 
-[target.'cfg(target_env = "msvc")'.build-dependencies]
+[build-dependencies]
+autotools = "0.2.4"
 cc = "1.0.48"
